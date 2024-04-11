@@ -45,10 +45,10 @@ class string_boll {
 function change_light(){
     let light = document.getElementById('main-lamp');
     if(lightON){
-        light.style.backgroundImage = 'url(/assets/light.png)';
+        light.style.backgroundImage = 'url(images/light.png)';
     }
     else{
-        light.style.backgroundImage = 'url(/assets/dark.png)';
+        light.style.backgroundImage = 'url(images/dark.png)';
     }
 }
 function setLampContainer_height_and_width(){
@@ -89,11 +89,11 @@ let isPlaying = false;
 let currentIndex = 0;
 
 const playlist = [
-    { song: "/assets/Dil-Jhoom-MassTamilan.dev.mp3", image: "/assets/pool.jpeg" },
-    { song: "/assets/Gulabi Saree-(PagalSongs.Com.IN).mp3", image: "/assets/cute16.jpeg" },
-    { song: "/assets/WhatsApp Audio 2024-04-10 at 10.15.22 AM.mpeg", image: "/assets/cute4.jpeg" },
-    { song: "/assets/WhatsApp Audio 2024-04-10 at 10.15.27 AM (1).mpeg", image: "/assets/cute15.jpeg" },
-    { song: "/assets/WhatsApp Audio 2024-04-10 at 10.15.27 AM (2).mpeg", image: "/assets/WhatsApp Image 2024-04-09 at 9.00.47 PM.jpeg" },
+    { song: "images/Dil-Jhoom-MassTamilan.dev.mp3", image: "images/pool.jpeg" },
+    { song: "images/Gulabi Saree-(PagalSongs.Com.IN).mp3", image: "images/cute16.jpeg" },
+    { song: "images/WhatsApp Audio 2024-04-10 at 10.15.22 AM.mpeg", image: "images/cute4.jpeg" },
+    { song: "images/WhatsApp Audio 2024-04-10 at 10.15.27 AM (1).mpeg", image: "images/cute15.jpeg" },
+    { song: "images/WhatsApp Audio 2024-04-10 at 10.15.27 AM (2).mpeg", image: "images/WhatsApp Image 2024-04-09 at 9.00.47 PM.jpeg" },
     // Add more songs and images as needed
 ];
 
@@ -112,9 +112,9 @@ const playlist = [
 
 // function nextTrack() {
 //     // Change image source
-//     musicImage.src = "/assets/cute4.jpeg";
+//     musicImage.src = "images/cute4.jpeg";
 //     // Change audio source
-//     audioPlayer.src = "/assets/Dil-Jhoom-MassTamilan.dev.mp3";
+//     audioPlayer.src = "images/Dil-Jhoom-MassTamilan.dev.mp3";
 //     // Play the next track automatically if music is playing
 //     if (isPlaying) {
 //         audioPlayer.play();
@@ -125,9 +125,9 @@ const playlist = [
 
 // function previousTrack() {
 //     // Change image source
-//     musicImage.src = "/assets/pool.jpeg";
+//     musicImage.src = "images/pool.jpeg";
 //     // Change audio source
-//     audioPlayer.src = "/assets/Gulabi Saree-(PagalSongs.Com.IN).mp3";
+//     audioPlayer.src = "images/Gulabi Saree-(PagalSongs.Com.IN).mp3";
 //     // Play the previous track automatically if music is playing
 //     if (isPlaying) {
 //         audioPlayer.play();

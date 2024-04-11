@@ -29,7 +29,7 @@ body {
     /* height: 600px; */
     /* background-color: red; */
     margin: auto;
-    background-image: url(/assets/dark.png);
+    background-image: url(images/dark.png);
     background-size: cover;
     /* margin-top: 0px; */
 }
