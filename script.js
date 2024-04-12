@@ -90,10 +90,11 @@ let currentIndex = 0;
 
 const playlist = [
     { song: "images/Dil-Jhoom-MassTamilan.dev.mp3", image: "images/pool.jpeg" },
-    { song: "images/Gulabi Saree-(PagalSongs.Com.IN).mp3", image: "images/cute16.jpeg" },
+    { song: "images/Gulabi Saree-(PagalSongs.Com.IN).mp3", image: "images/gulabi.jpeg" },
     { song: "images/WhatsApp Audio 2024-04-10 at 10.15.22 AM.mpeg", image: "images/cute4.jpeg" },
     { song: "images/WhatsApp Audio 2024-04-10 at 10.15.27 AM (1).mpeg", image: "images/cute15.jpeg" },
     { song: "images/WhatsApp Audio 2024-04-10 at 10.15.27 AM (2).mpeg", image: "images/WhatsApp Image 2024-04-09 at 9.00.47 PM.jpeg" },
+    { song: "images/zindagi.mpeg", image: "images/cute14.jpeg" },
     // Add more songs and images as needed
 ];
 
