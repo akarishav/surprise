@@ -95,6 +95,7 @@ const playlist = [
     { song: "images/WhatsApp Audio 2024-04-10 at 10.15.27 AM (1).mpeg", image: "images/cute15.jpeg" },
     { song: "images/WhatsApp Audio 2024-04-10 at 10.15.27 AM (2).mpeg", image: "images/WhatsApp Image 2024-04-09 at 9.00.47 PM.jpeg" },
     { song: "images/zindagi.mpeg", image: "images/cute14.jpeg" },
+    { song: "images/dost.mpeg", image: "images/cute14.jpeg" },
     // Add more songs and images as needed
 ];
 
